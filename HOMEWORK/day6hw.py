@@ -11,7 +11,6 @@ for views in blog_views:
         print("Average")
     else:
         print("Low Traffic")
-        
         total_views += views
         
 print(total_views)
